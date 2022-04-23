@@ -1,0 +1,11 @@
+{
+  "_version": "1.41.0",
+  "theme_color": "#e335f6",
+  "background_color": "#c1f635",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "FinKid",
+  "short_name": "FinKid",
+  "description": "Bank for the kids"
+}
