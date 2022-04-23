@@ -110,6 +110,8 @@ export const Login = () => {
         onClick={() => {
           if (correctSecret === secret.join("")) {
             navigate(`/dashboard`)
+          } else {
+            setSecret("")
           }
         }}
       >
