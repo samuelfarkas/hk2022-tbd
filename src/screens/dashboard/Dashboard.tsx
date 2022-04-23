@@ -56,13 +56,15 @@ export const Dashboard = () => {
               justify="space-between"
             >
               <Box p={4}>
-                <Text fontSize='md' fontFamily="krona" mb={2}>
-                  Pokracuj vo vyzve >
+                <Text fontSize="md" fontFamily="krona" mb={2}>
+                  Pokracuj vo vyzve {">"}
                 </Text>
-                <Text fontSize="xs">Máš nesplnených ešte 5 úloh na tento týždeň.</Text>
+                <Text fontSize="xs">
+                  Máš nesplnených ešte 5 úloh na tento týždeň.
+                </Text>
               </Box>
               <Box right="0" alignSelf="end" width="80%" height="100%">
-                <Image src="coin_stand.svg" width="100%" height="100%"/>
+                <Image src="coin_stand.svg" width="100%" height="100%" />
               </Box>
             </Flex>
           </Box>
