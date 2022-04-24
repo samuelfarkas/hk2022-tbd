@@ -1,4 +1,4 @@
-import { Button, Flex, Grid, Img, Text } from "@chakra-ui/react"
+import { Button, Flex, Grid, Heading, Img, Text } from "@chakra-ui/react"
 import React, { useEffect, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
@@ -28,11 +28,11 @@ export const Intro = () => {
       </Flex>
       <Img src="image.png" width="100%" maxWidth="300px" />
       <Flex width="100%" maxWidth="270px">
-        <Text color="white" fontSize="32px">
+        <Heading color="white" fontSize="32px">
           {step === 1 && "Peniaze nie sú len pre dospelých"}
           {step === 2 && "Sprav úlohy, vzdelávaj sa a zárabaj!"}
           {step === 3 && "Splň si svoje sny! Našetri si na ciele"}
-        </Text>
+        </Heading>
       </Flex>
       <Flex mb="10px" align="center" justify="space-between" mt="10px">
         <Grid gridGap="8px" gridTemplateColumns="repeat(3, 5px)">
