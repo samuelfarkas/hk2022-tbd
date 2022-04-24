@@ -24,9 +24,9 @@ export const Intro = () => {
       background="linear-gradient(152.35deg, #0097FD 0%, #4DB2F6 57.84%)"
     >
       <Flex width="100%" justify="center" mb="10px">
-        <Img src="./logo.png" width="100%" maxWidth="140px" />
+        <Img src="logo.png" width="100%" maxWidth="140px" />
       </Flex>
-      <Img src="./image.png" width="100%" maxWidth="300px" />
+      <Img src="image.png" width="100%" maxWidth="300px" />
       <Flex width="100%" maxWidth="270px">
         <Text color="white" fontSize="32px">
           {step === 1 && "Peniaze nie sú len pre dospelých"}

@@ -85,17 +85,17 @@ export const Dashboard = () => {
             </Button>
           </Flex>
           <Box position="relative">
-            <Flex
-              bg="white"
-              mt={4}
-              borderRadius="2xl"
-              width="100%"
-              height="128px"
-              boxShadow="md"
-              position="absolute"
-              justify="space-between"
-            >
-              <Link to="/tasks" color="black">
+            <Link to="/tasks" color="black">
+              <Flex
+                bg="white"
+                mt={4}
+                borderRadius="2xl"
+                width="100%"
+                height="128px"
+                boxShadow="md"
+                position="absolute"
+                justify="space-between"
+              >
                 <Box p={4}>
                   <Text fontSize="md" color="black" fontFamily="krona" mb={2}>
                     Pokračuj  v úlohách {">"}
@@ -104,11 +104,11 @@ export const Dashboard = () => {
                     Máš nesplnených ešte 5 úloh na tento týždeň.
                   </Text>
                 </Box>
-              </Link>
-              <Box right="0" alignSelf="end" width="80%" height="100%">
-                <Image src="coin_stand.svg" width="100%" height="100%" />
-              </Box>
-            </Flex>
+                <Box right="0" alignSelf="end" width="80%" height="100%">
+                  <Image src="coin_stand.svg" width="100%" height="100%" />
+                </Box>
+              </Flex>
+            </Link>
           </Box>
         </Box>
       </Box>
