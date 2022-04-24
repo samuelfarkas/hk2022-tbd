@@ -111,7 +111,7 @@ export const Login = () => {
           if (correctSecret === secret.join("")) {
             navigate(`/dashboard`)
           } else {
-            setSecret("")
+            setSecret([""])
           }
         }}
       >
