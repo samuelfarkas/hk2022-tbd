@@ -17,7 +17,7 @@ const WithMainNavigation: FC<PropsWithChildren<{}>> = ({ children }) => (
 
 function App() {
   return (
-    <Box mx="auto" height="100vh" borderRadius="sm" border="1px" maxW="430px">
+    <Box mx="auto" borderRadius="sm" overflowX="hidden" maxW="430px" pb="2%">
       <Flex width="100%" justify="center">
         <Routes>
           <Route path="/" element={<Intro />} />
