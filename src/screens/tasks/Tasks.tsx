@@ -273,7 +273,7 @@ export const Tasks = () => {
       {activeTab === 2 && (
         <Box px={8} mt={4}>
           <Text fontSize="2xl" fontFamily="poppins" mb="20px">
-            Poď do toho!💪
+            Otestuj sa a zabav!😄
           </Text>
           <Grid gridGap="20px">
             {learning.map((task, index) => {
@@ -305,7 +305,6 @@ export const Tasks = () => {
                     {status === "markAsDone" ? (
                       <>
                         <Button
-
                           mr="5px"
                           px="5px"
                           h="25px"
@@ -317,7 +316,7 @@ export const Tasks = () => {
                               : "2px solid #149FFD"
                           }
                           borderColor="white"
-                          variant='outline'
+                          variant="outline"
                         >
                           pozriet video
                         </Button>
@@ -325,9 +324,8 @@ export const Tasks = () => {
                           px="5px"
                           h="25px"
                           fontSize="12px"
-                          color={index % 2 === 0 ? 'black': 'white'}
-                          backgroundColor={index % 2 === 0 ? 'white': 'black'}
-
+                          color={index % 2 === 0 ? "black" : "white"}
+                          backgroundColor={index % 2 === 0 ? "white" : "black"}
                         >
                           test
                         </Button>
