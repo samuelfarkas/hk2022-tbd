@@ -26,7 +26,7 @@ export const Intro = () => {
       <Flex width="100%" justify="center" mb="10px">
         <Img src="logo.png" width="100%" maxWidth="140px" />
       </Flex>
-      <Img src="public/image.png" width="100%" maxWidth="300px" />
+      <Img src="image.png" width="100%" maxWidth="300px" />
       <Flex width="100%" maxWidth="270px">
         <Text color="white" fontSize="32px">
           {step === 1 && "Peniaze nie sú len pre dospelých"}
